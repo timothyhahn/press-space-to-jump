@@ -15,7 +15,7 @@ Came up with a dumb fake ECS system since Python seems to have no good ECS libra
 * You need virtualenv and pip already installed
 * Probably need SDL too, not sure.
 * `virtualenv venv`
-* `source `
+* `source venv/bin/activate`
 * `pip install -r requirements.txt`
 
 ## Running
