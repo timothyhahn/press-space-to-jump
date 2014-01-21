@@ -79,6 +79,7 @@ class PressSpaceToJump():
                 if event.key == (K_SPACE) and self.jumpCounter > 0:
                     self.jumpCounter -= 1
                     self.you['velocity'].y = self.UPWARDS
+                    self.you['velocity'].x = 3
                     if self.jumpCounter == 1:
                         self.sounds['jump'].play()
                     else:
@@ -111,6 +112,7 @@ class PressSpaceToJump():
         if self.you['position'].y <= 0:
             self.you['position'].y = 0
             self.you['velocity'].y = 0
+            self.you['velocity'].x = 1
             self.jumpCounter = 2
         elif self.you['position'].y >= self.JUMP_LIMIT:
             self.you['velocity'].y = self.DOWNWARDS
