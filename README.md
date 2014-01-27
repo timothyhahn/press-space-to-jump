@@ -1,8 +1,6 @@
 # Press Space To Jump
 
-Little game I made in Python and pygame.
-
-Came up with a dumb fake ECS system since Python seems to have no good ECS libraries.
+Little game I made in Python and pyGame with my ECS [rui](github.com/timothyhahn/rui).
 
 ## Screenshots
 
@@ -11,7 +9,7 @@ Came up with a dumb fake ECS system since Python seems to have no good ECS libra
 ![Playing 2](http://i.imgur.com/VdrCzu8.png)
 
 Super low FPS .gif
-![Imgur](http://i.imgur.com/BLSLOo3.gif)
+![Gameplay Gif](http://i.imgur.com/88jO2nK.gif)
 
 
 ## Installing Dependencies
