@@ -1,2 +1,3 @@
 hg+http://bitbucket.org/pygame/pygame
 wsgiref==0.1.2
+rui==0.3.6
