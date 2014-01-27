@@ -1,6 +1,6 @@
 # Press Space To Jump
 
-Little game I made in Python and pyGame with my ECS [rui](github.com/timothyhahn/rui).
+Little game I made in Python and pyGame with my ECS [rui](http://github.com/timothyhahn/rui).
 
 ## Screenshots
 
